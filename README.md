@@ -184,21 +184,13 @@ npm start
 
 > Replace `main` in URLs below with your branch name if your default branch is different.
 
-<p align="center">
-  <a href="https://railway.app/new/template?template=https://github.com/GK-FY/STARTUM-AIRTiME-V2">
-    <img src="https://railway.app/button.svg" alt="Deploy on Railway" style="margin:6px;height:40px;">
-  </a>
-  <a href="https://heroku.com/deploy?template=https://github.com/GK-FY/STARTUM-AIRTiME-V2">
-    <img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy to Heroku" style="margin:6px;height:40px;">
-  </a>
-  <a href="https://app.koyeb.com/deploy?type=git&repository=GK-FY/STARTUM-AIRTiME-V2&branch=main">
-    <img src="https://www.koyeb.com/static/images/deploy/button.svg" alt="Deploy to Koyeb" style="margin:6px;height:40px;">
-  </a>
-  <a href="https://cloud.digitalocean.com/apps/new?repo=https://github.com/GK-FY/STARTUM-AIRTiME-V2/tree/main">
-    <img src="https://img.shields.io/badge/DigitalOcean-Deploy-blue.svg" alt="Deploy to DigitalOcean" style="margin:6px;height:40px;">
-  </a>
-  <a href="https://dashboard.render.com/new?repo=https://github.com/GK-FY/STARTUM-AIRTiME-V2">
-    <img src="https://img.shields.io/badge/Render-Deploy-6CC24A.svg" alt="Deploy to Render" style="margin:6px;height:40px;">
+|
+| ----------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| **Railway (recommended)**     | [![Deploy on | **Railway (Recommended)**      | [![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/new/template?template=https://github.com/GK-FY/STARTUM-AIRTiME-V2) |
+| **Heroku**                     | [![Deploy to Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/GK-FY/STARTUM-AIRTiME-V2) |
+| **Koyeb**                      | [![Deploy to Koyeb](https://www.koyeb.com/static/images/deploy/button.svg)](https://app.koyeb.com/deploy?type=git&repository=GK-FY/STARTUM-AIRTiME-V2&branch=main) |
+| **DigitalOcean App Platform**  | [![Deploy to DigitalOcean](https://img.shields.io/badge/DigitalOcean-App%20Platform-blue?logo=digitalocean)](https://cloud.digitalocean.com/apps/new?repo=https://github.com/GK-FY/STARTUM-AIRTiME-V2/tree/main) |
+| **Render**                     | [![Deploy to Render](https://img.shields.io/badge/Render-Deploy-success?logo=render)](https://dashboard.render.com/new?repo=https://github.com/GK-FY/STARTUM-AIRTiME-V2) |
   </a>
 </p>
 
