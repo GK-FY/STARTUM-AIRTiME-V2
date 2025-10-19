@@ -142,7 +142,7 @@ npm start
 | **Heroku**                    | [![Deploy to Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/GK-FY/STARTUM-AIRTiME-V2)                 |
 | **Koyeb**                     | [![Deploy to Koyeb](https://www.koyeb.com/static/images/deploy/button.svg)](https://app.koyeb.com/deploy?type=git&repository=GK-FY/STARTUM-AIRTiME-V2&branch=main) |
 | **DigitalOcean App Platform** | [Deploy to DigitalOcean App Platform →](https://cloud.digitalocean.com/apps/new?repo=https://github.com/GK-FY/STARTUM-AIRTiME-V2/tree/main)                        |
-| **Render**                    | [Deploy to Render →](https://dashboard.render.com/new?repo=https://github.com/GK-FY/STARTUM-AIRTiME-V2)                                                            |
+<img src="https://img.shields.io/badge/Render-Deploy-6CC24A.svg" alt="Deploy to Render" style="margin:6px;height:40px;">                                                            |
 
 > If a platform asks for permissions, authorize the GitHub app for that repo. Configure environment variables (`ADMIN_WHATSAPP`, `ADMIN_UI_TOKEN`, API keys) in the selected platform before starting the app.
 
