@@ -1,4 +1,4 @@
-# 🎯 FY WhatsApp Airtime Bot
+# ðŸŽ¯ FY WhatsApp Airtime Bot
 
 A powerful, production-ready WhatsApp bot for selling airtime in Kenya via M-Pesa. Features a beautiful admin dashboard, automatic payment processing, and seamless airtime delivery.
 
@@ -6,25 +6,25 @@ A powerful, production-ready WhatsApp bot for selling airtime in Kenya via M-Pes
 ![Node](https://img.shields.io/badge/node-%3E%3D16.0.0-brightgreen.svg)
 ![WhatsApp](https://img.shields.io/badge/WhatsApp-Web.js-25D366.svg)
 
-## ✨ Features
+## âœ¨ Features
 
 ### For Customers
-- 💸 **Easy Airtime Purchase** - Buy airtime for yourself or others via WhatsApp
-- 📱 **M-Pesa Integration** - Secure payments via Shadow Pay STK Push
-- 📦 **Order Tracking** - Track your orders with unique order numbers
-- ✅ **Instant Delivery** - Automatic airtime delivery via Statum API
-- 🎯 **User-Friendly** - Interactive menu system with clear instructions
+- ðŸ’¸ **Easy Airtime Purchase** - Buy airtime for yourself or others via WhatsApp
+- ðŸ“± **M-Pesa Integration** - Secure payments via Shadow Pay STK Push
+- ðŸ“¦ **Order Tracking** - Track your orders with unique order numbers
+- âœ… **Instant Delivery** - Automatic airtime delivery via Statum API
+- ðŸŽ¯ **User-Friendly** - Interactive menu system with clear instructions
 
 ### For Admins
-- 🎨 **Beautiful Admin Dashboard** - Modern web interface for managing everything
-- ⚙️ **Easy Settings Management** - Change admin number, limits, discount, API keys - all from the dashboard
-- 📊 **Order Management** - View all orders, filter by status, search by order number
-- 👑 **WhatsApp Admin Panel** - Full admin control via WhatsApp commands
-- 🔐 **Secure** - Token-based authentication for admin access
-- 📱 **Real-time Updates** - Live connection status and QR code display
-- 💰 **Flexible Pricing** - Set min/max amounts and discount percentages
+- ðŸŽ¨ **Beautiful Admin Dashboard** - Modern web interface for managing everything
+- âš™ï¸ **Easy Settings Management** - Change admin number, limits, discount, API keys - all from the dashboard
+- ðŸ“Š **Order Management** - View all orders, filter by status, search by order number
+- ðŸ‘‘ **WhatsApp Admin Panel** - Full admin control via WhatsApp commands
+- ðŸ” **Secure** - Token-based authentication for admin access
+- ðŸ“± **Real-time Updates** - Live connection status and QR code display
+- ðŸ’° **Flexible Pricing** - Set min/max amounts and discount percentages
 
-## 🚀 Quick Start
+## ðŸš€ Quick Start
 
 ### 1. Clone and Install
 
@@ -53,7 +53,7 @@ npm start
 ### 4. Scan QR Code
 
 1. Open `http://localhost:5000` in your browser
-2. Scan the QR code with WhatsApp (Settings → Linked Devices → Link a Device)
+2. Scan the QR code with WhatsApp (Settings â†’ Linked Devices â†’ Link a Device)
 3. Wait for "WhatsApp Connected!" message
 
 ### 5. Configure Settings
@@ -68,7 +68,7 @@ npm start
 5. Set your pricing (min/max amounts, discount)
 6. Click "Save All Settings"
 
-## 📋 Requirements
+## ðŸ“‹ Requirements
 
 * **Node.js** 16 or higher
 * **WhatsApp Account** (for the bot)
@@ -76,7 +76,7 @@ npm start
 * **Statum Account** ([statum.co.ke](https://statum.co.ke)) - For airtime delivery
 * **Long-running server** (See deployment guide)
 
-## 🎮 How to Use
+## ðŸŽ® How to Use
 
 ### For Customers
 
@@ -105,7 +105,7 @@ npm start
 * View orders, check status, update settings
 * Get QR code, restart session, send test alerts
 
-## 🎯 Admin Dashboard Features
+## ðŸŽ¯ Admin Dashboard Features
 
 ### Orders Tab
 
@@ -128,9 +128,9 @@ npm start
 * Platform details and connection status
 * Deployment guidance
 
-## 🚀 Deployment
+## ðŸš€ Deployment
 
-**⚠️ Important:** This bot **CANNOT** run on Vercel, Netlify, or other serverless platforms because it requires persistent connections.
+**âš ï¸ Important:** This bot **CANNOT** run on Vercel, Netlify, or other serverless platforms because it requires persistent connections.
 
 ### One-click Deploy (use this repo: `GK-FY/STARTUM-AIRTiME-V2`)
 
@@ -138,21 +138,18 @@ npm start
 
 | Platform                      | One-click link / button                                                                                                                                            |
 | ----------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| **Railway (recommended)**     | [![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/new/template?template=https://github.com/GK-FY/STARTUM-AIRTiME-V2)                      |
-| **Heroku**                    | [![Deploy to Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/GK-FY/STARTUM-AIRTiME-V2)                 |
-| **Koyeb**                     | [![Deploy to Koyeb](https://www.koyeb.com/static/images/deploy/button.svg)](https://app.koyeb.com/deploy?type=git&repository=GK-FY/STARTUM-AIRTiME-V2&branch=main) |
-| **DigitalOcean App Platform** | <img src="https://img.shields.io/badge/DigitalOcean-Deploy-blue.svg" alt="Deploy to DigitalOcean" style="margin:6px;height:40px;">                        |
-  </a>
-  <a href="https://dashboard.render.com/new?repo=https://github.com/GK-FY/STARTUM-AIRTiME-V2">
-    <img src="https://img.shields.io/badge/Render-Deploy-6CC24A.svg" alt="Deploy to Render" style="margin:6px;height:40px;">
-  </a>
-</p>                                                            |
+| **Railway (recommended)**     | [![Deploy on | **Railway (Recommended)**      | [![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/new/template?template=https://github.com/GK-FY/STARTUM-AIRTiME-V2) |
+| **Heroku**                     | [![Deploy to Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/GK-FY/STARTUM-AIRTiME-V2) |
+| **Koyeb**                      | [![Deploy to Koyeb](https://www.koyeb.com/static/images/deploy/button.svg)](https://app.koyeb.com/deploy?type=git&repository=GK-FY/STARTUM-AIRTiME-V2&branch=main) |
+| **DigitalOcean App Platform**  | [![Deploy to DigitalOcean](https://img.shields.io/badge/DigitalOcean-App%20Platform-blue?logo=digitalocean)](https://cloud.digitalocean.com/apps/new?repo=https://github.com/GK-FY/STARTUM-AIRTiME-V2/tree/main) |
+| **Render**                     | [![Deploy to Render](https://img.shields.io/badge/Render-Deploy-success?logo=render)](https://dashboard.render.com/new?repo=https://github.com/GK-FY/STARTUM-AIRTiME-V2) |
+                                     |
 
 > If a platform asks for permissions, authorize the GitHub app for that repo. Configure environment variables (`ADMIN_WHATSAPP`, `ADMIN_UI_TOKEN`, API keys) in the selected platform before starting the app.
 
 ### Recommended Platforms (details)
 
-1. **Railway.app** ⭐ (Recommended)
+1. **Railway.app** â­ (Recommended)
 
    * Free tier available
    * Easy one-click deploy
@@ -173,9 +170,9 @@ npm start
    * $5/month droplets or App Platform
    * Use the DigitalOcean App Platform link above
 
-**📖 See [DEPLOYMENT.md](DEPLOYMENT.md) for detailed deployment instructions.**
+**ðŸ“– See [DEPLOYMENT.md](DEPLOYMENT.md) for detailed deployment instructions.**
 
-## 🔧 Configuration
+## ðŸ”§ Configuration
 
 ### Environment Variables
 
@@ -199,35 +196,35 @@ npm start
 | `statum_consumer_key`    | Statum consumer key    | Your key    |
 | `statum_consumer_secret` | Statum consumer secret | Your secret |
 
-## 📁 Project Structure
+## ðŸ“ Project Structure
 
 ```
 .
-├── server.js              # Main application server
-├── package.json           # Dependencies
-├── public/
-│   ├── index.html        # QR code dashboard
-│   └── admin.html        # Admin dashboard
-├── data/                 # Auto-created data directory
-│   ├── orders.json       # Order records
-│   └── settings.json     # Bot settings
-├── session/              # WhatsApp session (auto-created)
-├── railway.json          # Railway deployment config
-├── render.yaml           # Render deployment config
-├── Procfile              # Heroku deployment config
-├── DEPLOYMENT.md         # Deployment guide
-└── README.md             # This file
+â”œâ”€â”€ server.js              # Main application server
+â”œâ”€â”€ package.json           # Dependencies
+â”œâ”€â”€ public/
+â”‚   â”œâ”€â”€ index.html        # QR code dashboard
+â”‚   â””â”€â”€ admin.html        # Admin dashboard
+â”œâ”€â”€ data/                 # Auto-created data directory
+â”‚   â”œâ”€â”€ orders.json       # Order records
+â”‚   â””â”€â”€ settings.json     # Bot settings
+â”œâ”€â”€ session/              # WhatsApp session (auto-created)
+â”œâ”€â”€ railway.json          # Railway deployment config
+â”œâ”€â”€ render.yaml           # Render deployment config
+â”œâ”€â”€ Procfile              # Heroku deployment config
+â”œâ”€â”€ DEPLOYMENT.md         # Deployment guide
+â””â”€â”€ README.md             # This file
 ```
 
-## 🔒 Security
+## ðŸ”’ Security
 
-* ✅ Admin dashboard protected by token authentication
-* ✅ Admin WhatsApp number verification
-* ✅ Environment variables for sensitive data
-* ✅ Secure M-Pesa payment handling
-* ✅ Session data isolated and persistent
+* âœ… Admin dashboard protected by token authentication
+* âœ… Admin WhatsApp number verification
+* âœ… Environment variables for sensitive data
+* âœ… Secure M-Pesa payment handling
+* âœ… Session data isolated and persistent
 
-## 🛠️ Troubleshooting
+## ðŸ› ï¸ Troubleshooting
 
 ### Bot not connecting?
 
@@ -249,7 +246,7 @@ npm start
 2. Check environment variable `ADMIN_UI_TOKEN`
 3. Try clearing browser cache
 
-## 📞 API Endpoints
+## ðŸ“ž API Endpoints
 
 ### Public APIs
 
@@ -267,21 +264,21 @@ npm start
 * `GET /admin/system-info` - System information
 * `POST /admin/alert` - Send test WhatsApp alert
 
-## 🤝 Contributing
+## ðŸ¤ Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request.
 
-## 📄 License
+## ðŸ“„ License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-## 💡 Support
+## ðŸ’¡ Support
 
-* 📖 Read the [Deployment Guide](DEPLOYMENT.md)
-* 🐛 Report bugs via GitHub Issues
-* ⭐ Star this repo if you find it useful!
+* ðŸ“– Read the [Deployment Guide](DEPLOYMENT.md)
+* ðŸ› Report bugs via GitHub Issues
+* â­ Star this repo if you find it useful!
 
-## 🎉 Credits
+## ðŸŽ‰ Credits
 
 Built with:
 
@@ -293,7 +290,7 @@ Built with:
 
 ---
 
-**Made with ❤️ for Kenyan entrepreneurs**
+**Made with â¤ï¸ for Kenyan entrepreneurs**
 
 Need help? Open an issue or check the [Deployment Guide](DEPLOYMENT.md)!
 
