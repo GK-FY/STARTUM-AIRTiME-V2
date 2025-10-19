@@ -1,4 +1,3 @@
-````markdown
 # 🎯 FY WhatsApp Airtime Bot
 
 A powerful, production-ready WhatsApp bot for selling airtime in Kenya via M-Pesa. Features a beautiful admin dashboard, automatic payment processing, and seamless airtime delivery.
