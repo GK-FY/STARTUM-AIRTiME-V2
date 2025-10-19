@@ -193,20 +193,28 @@ branch name if your default branch is different.
 | **Render**                     | [![Deploy to Render](https://img.shields.io/badge/Render-Deploy-success?logo=render)](https://dashboard.render.com/new?repo=https://github.com/GK-FY/STARTUM-AIRTiME-V2) |
                                      
 
-**Recommended Platforms (details)**
+### Recommended Platforms (details)
 
-1. **Railway.app** ⭐ (Recommended)
+1. **Railway.app** â­ (Recommended)
 
-   * Free tier available; easy one-click deploy
+   * Free tier available
+   * Easy one-click deploy
+   * Use the Railway button above to deploy directly from the repo
 2. **Render.com**
 
-   * Simple deployment; free tier available
+   * Simple deployment
+   * Free tier available
+   * Use the Render link above
 3. **Heroku**
 
-   * Reliable and tested; $5/month eco dynos (if you need always-on)
+   * Reliable and tested
+   * $5/month eco dynos
+   * Use the Heroku button above
 4. **DigitalOcean**
 
-   * Full control; $5/month droplets or App Platform
+   * Full control
+   * $5/month droplets or App Platform
+   * Use the DigitalOcean App Platform link
 
 **📖 See [DEPLOYMENT.md](DEPLOYMENT.md) for detailed deployment instructions.**
 
