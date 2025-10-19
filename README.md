@@ -2,7 +2,7 @@
 # 🎯 FY WHATSAPP AIRTIME BOT
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/GK-FY/STARTUM-AIRTiME-V2/main/assets/banner.png" alt="FY Bot" width="820" style="max-width:100%;border-radius:12px;"/>
+  <img src="https://iili.io/K8NxoEF.webp" alt="FY Bot" width="820" style="max-width:100%;border-radius:12px;"/>
 </p>
 
 A powerful, production-ready WhatsApp bot for selling airtime in Kenya via M-Pesa. Features a beautiful admin dashboard, automatic payment processing, and seamless airtime delivery.
