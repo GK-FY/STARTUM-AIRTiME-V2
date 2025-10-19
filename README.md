@@ -1,3 +1,4 @@
+````markdown
 # 🎯 FY WhatsApp Airtime Bot
 
 A powerful, production-ready WhatsApp bot for selling airtime in Kenya via M-Pesa. Features a beautiful admin dashboard, automatic payment processing, and seamless airtime delivery.
@@ -29,10 +30,10 @@ A powerful, production-ready WhatsApp bot for selling airtime in Kenya via M-Pes
 ### 1. Clone and Install
 
 ```bash
-git clone https://github.com/yourusername/fy-whatsapp-bot.git
-cd fy-whatsapp-bot
+git clone https://github.com/GK-FY/STARTUM-AIRTiME-V2.git
+cd STARTUM-AIRTiME-V2
 npm install
-```
+````
 
 ### 2. Configure Environment
 
@@ -62,18 +63,19 @@ npm start
 2. Enter your `ADMIN_UI_TOKEN`
 3. Go to Settings tab
 4. Add your API credentials:
-   - Shadow Pay API keys (for M-Pesa)
-   - Statum API keys (for airtime delivery)
+
+   * Shadow Pay API keys (for M-Pesa)
+   * Statum API keys (for airtime delivery)
 5. Set your pricing (min/max amounts, discount)
 6. Click "Save All Settings"
 
 ## 📋 Requirements
 
-- **Node.js** 16 or higher
-- **WhatsApp Account** (for the bot)
-- **Shadow Pay Account** ([shadow-pay.top](https://shadow-pay.top)) - For M-Pesa payments
-- **Statum Account** ([statum.co.ke](https://statum.co.ke)) - For airtime delivery
-- **Long-running server** (See deployment guide)
+* **Node.js** 16 or higher
+* **WhatsApp Account** (for the bot)
+* **Shadow Pay Account** ([shadow-pay.top](https://shadow-pay.top)) - For M-Pesa payments
+* **Statum Account** ([statum.co.ke](https://statum.co.ke)) - For airtime delivery
+* **Long-running server** (See deployment guide)
 
 ## 🎮 How to Use
 
@@ -92,61 +94,81 @@ npm start
 ### For Admins
 
 #### Web Dashboard
+
 1. Go to your bot URL
 2. Click "Admin Dashboard"
 3. Enter admin token
 4. Manage orders, settings, and view system info
 
 #### WhatsApp Commands
-- Type `admin` or `9` from menu to access admin panel
-- View orders, check status, update settings
-- Get QR code, restart session, send test alerts
+
+* Type `admin` or `9` from menu to access admin panel
+* View orders, check status, update settings
+* Get QR code, restart session, send test alerts
 
 ## 🎯 Admin Dashboard Features
 
 ### Orders Tab
-- View all orders with filtering (all, paid, pending, failed)
-- Search by order number, MPesa code, or phone number
-- Real-time order status updates
-- Detailed order information
+
+* View all orders with filtering (all, paid, pending, failed)
+* Search by order number, MPesa code, or phone number
+* Real-time order status updates
+* Detailed order information
 
 ### Settings Tab
-- **Admin Configuration** - Change admin WhatsApp number
-- **Pricing & Limits** - Min/max amounts, discount percentage
-- **Shadow Pay Config** - M-Pesa payment API credentials
-- **Statum Config** - Airtime delivery API credentials
-- Save all settings with one click
+
+* **Admin Configuration** - Change admin WhatsApp number
+* **Pricing & Limits** - Min/max amounts, discount percentage
+* **Shadow Pay Config** - M-Pesa payment API credentials
+* **Statum Config** - Airtime delivery API credentials
+* Save all settings with one click
 
 ### System Tab
-- View system information
-- Platform details and connection status
-- Deployment guidance
+
+* View system information
+* Platform details and connection status
+* Deployment guidance
 
 ## 🚀 Deployment
 
 **⚠️ Important:** This bot **CANNOT** run on Vercel, Netlify, or other serverless platforms because it requires persistent connections.
 
-### Recommended Platforms:
+### One-click Deploy (use this repo: `GK-FY/STARTUM-AIRTiME-V2`)
+
+> Replace `main` in URLs below with your branch name if your default branch is different.
+
+| Platform                      | One-click link / button                                                                                                                                            |
+| ----------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| **Railway (recommended)**     | [![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/new/template?template=https://github.com/GK-FY/STARTUM-AIRTiME-V2)                      |
+| **Heroku**                    | [![Deploy to Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/GK-FY/STARTUM-AIRTiME-V2)                 |
+| **Koyeb**                     | [![Deploy to Koyeb](https://www.koyeb.com/static/images/deploy/button.svg)](https://app.koyeb.com/deploy?type=git&repository=GK-FY/STARTUM-AIRTiME-V2&branch=main) |
+| **DigitalOcean App Platform** | [Deploy to DigitalOcean App Platform →](https://cloud.digitalocean.com/apps/new?repo=https://github.com/GK-FY/STARTUM-AIRTiME-V2/tree/main)                        |
+| **Render**                    | [Deploy to Render →](https://dashboard.render.com/new?repo=https://github.com/GK-FY/STARTUM-AIRTiME-V2)                                                            |
+
+> If a platform asks for permissions, authorize the GitHub app for that repo. Configure environment variables (`ADMIN_WHATSAPP`, `ADMIN_UI_TOKEN`, API keys) in the selected platform before starting the app.
+
+### Recommended Platforms (details)
 
 1. **Railway.app** ⭐ (Recommended)
-   - Free tier available
-   - Easy one-click deploy
-   - [Deploy to Railway →](https://railway.app)
 
+   * Free tier available
+   * Easy one-click deploy
+   * Use the Railway button above to deploy directly from the repo
 2. **Render.com**
-   - Simple deployment
-   - Free tier available
-   - [Deploy to Render →](https://render.com)
 
+   * Simple deployment
+   * Free tier available
+   * Use the Render link above
 3. **Heroku**
-   - Reliable and tested
-   - $5/month eco dynos
-   - [Deploy to Heroku →](https://heroku.com)
 
+   * Reliable and tested
+   * $5/month eco dynos
+   * Use the Heroku button above
 4. **DigitalOcean**
-   - Full control
-   - $5/month droplets
-   - [Deploy to DigitalOcean →](https://digitalocean.com)
+
+   * Full control
+   * $5/month droplets or App Platform
+   * Use the DigitalOcean App Platform link above
 
 **📖 See [DEPLOYMENT.md](DEPLOYMENT.md) for detailed deployment instructions.**
 
@@ -154,24 +176,24 @@ npm start
 
 ### Environment Variables
 
-| Variable | Description | Required | Default |
-|----------|-------------|----------|---------|
-| `PORT` | Server port | No | 5000 |
-| `ADMIN_WHATSAPP` | Admin phone (254XXXXXXXXX) | Yes | - |
-| `ADMIN_UI_TOKEN` | Admin dashboard password | Yes | changeme |
+| Variable         | Description                | Required | Default  |
+| ---------------- | -------------------------- | -------- | -------- |
+| `PORT`           | Server port                | No       | 5000     |
+| `ADMIN_WHATSAPP` | Admin phone (254XXXXXXXXX) | Yes      | -        |
+| `ADMIN_UI_TOKEN` | Admin dashboard password   | Yes      | changeme |
 
 ### Settings (via Admin Dashboard)
 
-| Setting | Description | Example |
-|---------|-------------|---------|
-| `bot_name` | Bot display name | FY Bot |
-| `min_amount` | Minimum airtime (KES) | 10 |
-| `max_amount` | Maximum airtime (KES) | 1500 |
-| `discount_percent` | Discount percentage | 0 |
-| `shadow_api_key` | Shadow Pay API key | Your key |
-| `shadow_api_secret` | Shadow Pay secret | Your secret |
-| `shadow_account_id` | Shadow Pay account ID | 17 |
-| `statum_consumer_key` | Statum consumer key | Your key |
+| Setting                  | Description            | Example     |
+| ------------------------ | ---------------------- | ----------- |
+| `bot_name`               | Bot display name       | FY Bot      |
+| `min_amount`             | Minimum airtime (KES)  | 10          |
+| `max_amount`             | Maximum airtime (KES)  | 1500        |
+| `discount_percent`       | Discount percentage    | 0           |
+| `shadow_api_key`         | Shadow Pay API key     | Your key    |
+| `shadow_api_secret`      | Shadow Pay secret      | Your secret |
+| `shadow_account_id`      | Shadow Pay account ID  | 17          |
+| `statum_consumer_key`    | Statum consumer key    | Your key    |
 | `statum_consumer_secret` | Statum consumer secret | Your secret |
 
 ## 📁 Project Structure
@@ -191,32 +213,35 @@ npm start
 ├── render.yaml           # Render deployment config
 ├── Procfile              # Heroku deployment config
 ├── DEPLOYMENT.md         # Deployment guide
-└── README.md            # This file
+└── README.md             # This file
 ```
 
 ## 🔒 Security
 
-- ✅ Admin dashboard protected by token authentication
-- ✅ Admin WhatsApp number verification
-- ✅ Environment variables for sensitive data
-- ✅ Secure M-Pesa payment handling
-- ✅ Session data isolated and persistent
+* ✅ Admin dashboard protected by token authentication
+* ✅ Admin WhatsApp number verification
+* ✅ Environment variables for sensitive data
+* ✅ Secure M-Pesa payment handling
+* ✅ Session data isolated and persistent
 
 ## 🛠️ Troubleshooting
 
 ### Bot not connecting?
+
 1. Check server logs for errors
 2. Ensure Chromium is installed (auto-handled on most platforms)
 3. Use admin panel option 10 to restart session
 4. Try re-scanning QR code
 
 ### Orders not processing?
+
 1. Verify Shadow Pay credentials in admin settings
 2. Verify Statum credentials in admin settings
 3. Check API account has sufficient credits
 4. Review order details in admin dashboard
 
 ### Can't access admin dashboard?
+
 1. Ensure you're using the correct admin token
 2. Check environment variable `ADMIN_UI_TOKEN`
 3. Try clearing browser cache
@@ -224,18 +249,20 @@ npm start
 ## 📞 API Endpoints
 
 ### Public APIs
-- `POST /api/initiate` - Create order and send STK push
-- `POST /api/get_order` - Get order details
-- `POST /api/check_status` - Check payment status
-- `POST /api/deliver` - Manually deliver airtime
+
+* `POST /api/initiate` - Create order and send STK push
+* `POST /api/get_order` - Get order details
+* `POST /api/check_status` - Check payment status
+* `POST /api/deliver` - Manually deliver airtime
 
 ### Admin APIs (Token Required)
-- `GET /admin/orders` - List all orders
-- `GET /admin/order/:order_no` - Get specific order
-- `GET /admin/settings` - Get all settings
-- `POST /admin/settings` - Update settings
-- `GET /admin/system-info` - System information
-- `POST /admin/alert` - Send test WhatsApp alert
+
+* `GET /admin/orders` - List all orders
+* `GET /admin/order/:order_no` - Get specific order
+* `GET /admin/settings` - Get all settings
+* `POST /admin/settings` - Update settings
+* `GET /admin/system-info` - System information
+* `POST /admin/alert` - Send test WhatsApp alert
 
 ## 🤝 Contributing
 
@@ -247,21 +274,25 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ## 💡 Support
 
-- 📖 Read the [Deployment Guide](DEPLOYMENT.md)
-- 🐛 Report bugs via GitHub Issues
-- ⭐ Star this repo if you find it useful!
+* 📖 Read the [Deployment Guide](DEPLOYMENT.md)
+* 🐛 Report bugs via GitHub Issues
+* ⭐ Star this repo if you find it useful!
 
 ## 🎉 Credits
 
 Built with:
-- [whatsapp-web.js](https://github.com/pedroslopez/whatsapp-web.js) - WhatsApp Web API
-- [Express](https://expressjs.com/) - Web framework
-- [Socket.IO](https://socket.io/) - Real-time updates
-- [Shadow Pay](https://shadow-pay.top) - M-Pesa payments
-- [Statum](https://statum.co.ke) - Airtime delivery
+
+* [whatsapp-web.js](https://github.com/pedroslopez/whatsapp-web.js) - WhatsApp Web API
+* [Express](https://expressjs.com/) - Web framework
+* [Socket.IO](https://socket.io.com/) - Real-time updates
+* [Shadow Pay](https://shadow-pay.top) - M-Pesa payments
+* [Statum](https://statum.co.ke) - Airtime delivery
 
 ---
 
 **Made with ❤️ for Kenyan entrepreneurs**
 
 Need help? Open an issue or check the [Deployment Guide](DEPLOYMENT.md)!
+
+```
+```
