@@ -1,0 +1,30 @@
+{
+  "client_1760854033440_o4ieuwbwy": {
+    "id": "client_1760854033440_o4ieuwbwy",
+    "botName": "CLIENT ONE 1🌹",
+    "adminNumber": "254700363422",
+    "createdAt": "2025-10-19 06:07:13.547",
+    "status": "disconnected"
+  },
+  "client_1760854801540_c27r7ekpr": {
+    "id": "client_1760854801540_c27r7ekpr",
+    "botName": "⚓AIRTIME BOT⚓",
+    "adminNumber": "",
+    "createdAt": "2025-10-19 06:20:01.587",
+    "status": "disconnected"
+  },
+  "client_1760860096961_pz13ae4wa": {
+    "id": "client_1760860096961_pz13ae4wa",
+    "botName": "⚓BOT⚓",
+    "adminNumber": "254110307506",
+    "shadowAccountId": "4",
+    "shadowApiKey": "Admin-api1234",
+    "shadowApiSecret": "Admin-secret1234",
+    "statumConsumerKey": "19554299a04b8d74fefaaa4066766629244",
+    "statumConsumerSecret": "9Kf3kCFYois2hmaXO1yi195pVAhK",
+    "createdAt": "2025-10-19 07:48:17.008",
+    "status": "disconnected",
+    "bannedUsers": {},
+    "isPaused": false
+  }
+}
